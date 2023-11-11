@@ -10,6 +10,48 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form action="/action_page.php" method="post">
+		<label for="name">Name</label><br>
+  <input type="text" id="name" name="fname" required ><br>
+
+		
+		<label for="email">Email</label>
+  <input type="email" id="email" name="email" required ><br>
+
+		
+		<p>Gender</p>
+  <input type="radio" id="gender_m" name="gender" value="male" required>
+  <label for="gender">Male</label><br>
+  <input type="radio" id="gender_f" name="gender" value="female" required>
+  <label for="gender">Female</label><br>
+
+		
+<label for="laptop">Laptop Brands</label>
+<select id="laptop" name="cars" required>
+  <option value="volvo">Apple</option>
+  <option value="saab">Asus</option>
+  <option value="fiat">HP</option>
+</select><br>
+
+		
+<label for="age">Age</label>
+  <input type="number" id="age" name="age" required><br>
+
+		
+	<label for="dob">Date of Birth</label>
+  <input type="date" id="dob" name="birthday" required><br>
+
+
+<label for="password">Password</label><br> 
+		<input type="password" id="password" name="pwd" required ><br>
+
+		
+	<label for="portfolio">Portfolio URL</label>
+  <input type="url" id="portfolio" name="homepage"><br>
+		
+		<button type="submit" form="form" value="Submit">Submit</button>
+		
+	</form>
 
 </body>
 
